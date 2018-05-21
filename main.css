@@ -1,0 +1,93 @@
+
+h1 {
+	color: #2a4968;
+}
+a:link {
+    color: #9dc3ea; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9dc3ea;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff3d3d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff3d77;
+    background-color: transparent;
+    text-decoration: none;
+}
+ul{list-style-type:none;}
+
+li{ padding: 5px 0px;}
+
+.topBar{
+	background-color: #9dc3ea;
+	width: 100%;
+	height: 25%;
+	margin-left: 196px;
+	z-index:0;
+	top: 0;
+	left: 0;
+	border-style: ridge;
+	border-radius: 5px;
+}
+
+.nav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	background-color: #2a4968;
+	overflow-x: hidden;
+	border-style: ridge;
+	border-radius: 5px;
+}
+.mainBodySet {
+	margin-left: 196px;
+	height: 100%;
+	width: 100%;
+	top: 1;
+	left: 1;
+	z-index: 0;
+	border-style: ridge;
+	border-radius: 5px;
+}
+
+.eduName
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.eduPlace
+{
+	margin-left: 20px;
+}
+.eduDegree
+{
+	margin-left: 20px;
+}
+.eduGradDate
+{
+	margin-left:20px;
+}
+
+.edu
+{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+html { background-color:#afbcdb;
+		font-family: "Helvetica"}
+
